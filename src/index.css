@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.toggle-checkbox:checked {
+  @apply: right-0 border-violet-400;
+  right: 0;
+  border-color: #9D71FD;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-violet-400;
+  background: #9D71FD;
+}
+
+.project-card-wrapper {
+  width: 320px;
+  border: 1px solid #E8E6EC;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.project-group-wrapper {
+  height: 350px;
+}
